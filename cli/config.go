@@ -21,9 +21,9 @@ func configPath() string {
 
 func configHome() string {
 	if xdgPath := os.Getenv("XDG_CONFIG_HOME"); xdgPath != "" {
-		return filepath.Join(xdgPath, "roboctl")
+		return filepath.Join(xdgPath, "tbledit")
 	}
-	return filepath.Join(homeDir(), ".config", "roboctl")
+	return filepath.Join(homeDir(), ".config", "tbledit")
 }
 
 func homeDir() string {
