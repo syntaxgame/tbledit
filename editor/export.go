@@ -50,7 +50,7 @@ func Export(inFile, outFile string) {
 		f.SetSheetRow("Sheet1", fmt.Sprintf("A%d", i+2), &row) // set row
 	}
 
-	f.SaveAs("test.xlsx")
+	f.SaveAs(outFile)
 }
 
 func BytesToString(data []byte) string {
