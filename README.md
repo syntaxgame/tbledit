@@ -6,7 +6,7 @@ cd tbledit
 go build -o tbledit
 ```
 or
-<a href="https://github.com/syntaxgame/tbledit/releases/tag/1.0.0"> Download a Release</a>.
+<a href="https://github.com/syntaxgame/tbledit/releases"> Download a Release</a>.
 
 
 ### How to Use?
